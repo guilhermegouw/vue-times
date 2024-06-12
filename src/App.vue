@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="app">
+        <lvBusca></lvBusca>
+        <lvPerfil></lvPerfil>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import lvBusca from './LVBusca.vue'
+import lvPerfil from './LVPerfil.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   lvBusca,
+   lvPerfil
   }
 }
 </script>
